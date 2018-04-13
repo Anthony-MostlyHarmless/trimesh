@@ -256,7 +256,7 @@ class SceneViewer(pyglet.window.Window):
     def on_key_press(self, symbol, modifiers):
         if symbol == pyglet.window.key.W:
             self.toggle_wireframe()
-        elif symbol == pyglet.window.key.F:
+        elif symbol == pyglet.window.key.J:
             self.reset_view()
         elif symbol == pyglet.window.key.C:
             self.toggle_culling()
